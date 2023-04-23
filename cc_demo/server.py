@@ -123,10 +123,10 @@ def http_server(bind_ip, bind_port):
 if __name__ == "__main__":
     bind_ip = "0.0.0.0"
     bind_port = 0  # Bind to an arbitrary port; the port number is not used for raw sockets
-    icmp_server(bind_ip, bind_port)
+    #icmp_server(bind_ip, bind_port)
 
     bind_port = 53  # Bind to port 53 for DNS
     # dns_server(bind_ip, bind_port)
 
     bind_port = 80  # Bind to port 80 for HTTP
-    #http_server(bind_ip, bind_port)
+    http_server(bind_ip, bind_port)
