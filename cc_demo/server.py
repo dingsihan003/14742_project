@@ -126,7 +126,7 @@ if __name__ == "__main__":
     #icmp_server(bind_ip, bind_port)
 
     bind_port = 53  # Bind to port 53 for DNS
-    # dns_server(bind_ip, bind_port)
+    dns_server(bind_ip, bind_port)
 
     bind_port = 80  # Bind to port 80 for HTTP
-    http_server(bind_ip, bind_port)
+    #http_server(bind_ip, bind_port)
