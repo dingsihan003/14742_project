@@ -11,7 +11,7 @@ common_shell_commands = [
     "wget", "curl", "ssh", "scp", "ftp", "sftp", "tftp",
     "vi", "vim", "nano", "pico", "emacs", "ed", "ex",
     "sudo", "su", "chroot", "passwd", "useradd", "usermod", "userdel",
-    "mount", "umount", "fsck", "mkfs", "dd", "fdisk", "gdisk", "parted", "df", "du", "ls"
+    "mount", "umount", "fsck", "mkfs", "dd", "fdisk", "gdisk", "parted", "df", "du", "ls", "pwd"
 ]
 
 def has_shell_command(payload):
